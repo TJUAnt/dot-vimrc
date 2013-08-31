@@ -14,7 +14,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color vividchalk
+color  Tomorrow-Night
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -197,7 +197,6 @@ nmap <F6> :NERDTreeToggle<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
-nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
 
 "------------------
@@ -237,7 +236,7 @@ nnoremap ; :
 if has("gui_running")
     set go=aAce  " remove toolbar
     "set transparency=30
-    set guifont=Monaco:h13
+    set guifont=Inconsolata:h13
     set showtabline=2
     set columns=140
     set lines=40
