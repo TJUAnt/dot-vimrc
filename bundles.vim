@@ -76,16 +76,16 @@ Bundle 'nono/jquery.vim'
 
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
-" Bundle 'timcharper/textile.vim'
+Bundle 'timcharper/textile.vim'
 
 "------- Ruby --------
 " Bundle 'tpope/vim-endwise'
 
 "------- Go ----------
-Bundle 'jnwhiteh/vim-golang'
+"Bundle 'jnwhiteh/vim-golang'
 
 "------- FPs ------
-Bundle 'kien/rainbow_parentheses.vim'
+"Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
 " Bundle 'vim-scripts/VimClojure'
 " Bundle 'rosstimson/scala-vim-support'
