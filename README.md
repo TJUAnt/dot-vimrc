@@ -1,4 +1,4 @@
-Maple's Vim config
+WangChen's Vim config
 ==================
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
@@ -31,7 +31,7 @@ Compile Vim with `--enable-pythoninterp` and `--enable-rubyinterp` to enable pow
 
 ``` bash
 brew install macvim --override-system-vim  # OS X
-yaourt -S gvim                             # ArchLinux
+pacman -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
 
@@ -104,7 +104,7 @@ sudo apt-get install vim-gtk               # Ubuntu
 ### Dependencie
 
 ```bash
-yaourt -S ack ctags                  # ArchLinux
+pacman -S ack ctags                  # ArchLinux
 sudo apt-get install ack-grep ctags  # Ubuntu
 brew install ack ctags               # OS X
 ```
