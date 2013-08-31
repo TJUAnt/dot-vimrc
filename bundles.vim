@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 "------------------
 Bundle 'Shougo/neocomplcache'
 Bundle 'honza/vim-snippets'
+Bundle 'garbas/vim-snipmate'
 Bundle 'ervandew/supertab'
 Bundle 'mattn/zencoding-vim'
 Bundle 'Raimondi/delimitMate'
