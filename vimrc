@@ -1,5 +1,7 @@
 source ~/.vim/bundles.vim
 
+let mapleader = "\\"
+
 " encoding dectection
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 
@@ -14,7 +16,8 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color  Tomorrow-Night
+"color  Tomorrow-Night
+color solarized
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
