@@ -235,6 +235,11 @@ nnoremap ; :
 :command Qa qa
 :command QA qa
 
+
+let g:lisp_rainbow=1
+
+
+
 " for macvim
 if has("gui_running")
     set go=aAce  " remove toolbar
@@ -256,3 +261,4 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+
