@@ -77,6 +77,11 @@ Bundle 'nono/jquery.vim'
 Bundle 'tpope/vim-markdown'
 Bundle 'timcharper/textile.vim'
 
+"------- Lisp --------
+Bundle 'rainbow_parentheses.vim'
+Bundle 'slimv.vim'
+
+
 "------- Ruby --------
 " Bundle 'tpope/vim-endwise'
 
