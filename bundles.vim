@@ -78,8 +78,8 @@ Bundle 'tpope/vim-markdown'
 Bundle 'timcharper/textile.vim'
 
 "------- Lisp --------
-Bundle 'rainbow_parentheses.vim'
-Bundle 'slimv.vim'
+"Bundle 'rainbow_parentheses.vim'
+"Bundle 'slimv.vim'
 
 
 "------- Ruby --------
