@@ -239,11 +239,9 @@ let g:lisp_rainbow=1
 
 
 
-" for macvim
 if has("gui_running")
-    set go=aAce  " remove toolbar
-    "set transparency=30
-    set guifont=Inconsolata:h13
+    set go=T      " only show toolbar"
+    set guifont=Inconsolata\ Medium\ 12
     set showtabline=2
     set columns=140
     set lines=40
