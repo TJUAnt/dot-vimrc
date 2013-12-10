@@ -44,7 +44,7 @@ set number                                                        " show line nu
 set showmatch                                                     " show matching bracket (briefly jump)
 set showcmd                                                       " show typed command in status bar
 set title                                                         " show file in titlebar
-set laststatus=2                                                  " use 2 lines for the status bar
+set laststatus=1                                                  " use 2 lines for the status bar
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                                               " specially for html
 " set relativenumber
@@ -240,22 +240,19 @@ let g:lisp_rainbow=1
 
 
 if has("gui_running")
-    set go=T      " only show toolbar"
-    set guifont=Inconsolata\ Medium\ 12
-    set showtabline=2
+    "set go=T                " only show toolbar"
+    "set guifont=Inconsolata\ Medium\ 12
+    set showtabline=2       " always show tabpage bar
     set columns=140
     set lines=40
-    noremap <D-M-Left> :tabprevious<cr>
-    noremap <D-M-Right> :tabnext<cr>
-    map <D-1> 1gt
-    map <D-2> 2gt
-    map <D-3> 3gt
-    map <D-4> 4gt
-    map <D-5> 5gt
-    map <D-6> 6gt
-    map <D-7> 7gt
-    map <D-8> 8gt
-    map <D-9> 9gt
-    map <D-0> :tablast<CR>
-endif
 
+    " for Mac use [Command+number] to jump between tab-page
+    "noremap <D-M-Left> :tabprevious<cr>
+    "noremap <D-M-Right> :tabnext<cr>
+    "map <D-1> 1gt
+    "map <D-2> 2gt
+    "map <D-3> 3gt
+    "map <D-4> 4gt
+    "map <D-0> :tablast<CR>
+    "
+endif
