@@ -16,7 +16,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color  Tomorrow-Night-Bright
+color Tomorrow
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -33,6 +33,7 @@ set smartcase
 set history=1000
 set nocompatible
 set nofoldenable                                                  " disable folding"
+set noswapfile
 set confirm                                                       " prompt when existing from an unsaved file
 set backspace=indent,eol,start                                    " More powerful backspacing
 set t_Co=256                                                      " Explicitly tell vim that the terminal has 256 colors "
@@ -238,8 +239,12 @@ nnoremap ; :
 let g:lisp_rainbow=1
 
 
+" netrw
+let g:netrw_browse_split=2 "edit selected file in split window(vertical)
+
 
 if has("gui_running")
+    colorscheme solarized
     "set go=T                " only show toolbar"
     "set guifont=Inconsolata\ Medium\ 12
     set showtabline=2       " always show tabpage bar
@@ -249,10 +254,10 @@ if has("gui_running")
     " for Mac use [Command+number] to jump between tab-page
     "noremap <D-M-Left> :tabprevious<cr>
     "noremap <D-M-Right> :tabnext<cr>
-    "map <D-1> 1gt
-    "map <D-2> 2gt
-    "map <D-3> 3gt
-    "map <D-4> 4gt
+    map <D-1> 1gt
+    map <D-2> 2gt
+    map <D-3> 3gt
+    map <D-4> 4gt
     "map <D-0> :tablast<CR>
     "
 endif
