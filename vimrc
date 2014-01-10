@@ -16,7 +16,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color Tomorrow
+color Tomorrow-Night
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -78,28 +78,6 @@ let g:html_indent_style1 = "inc"
 "-----------------
 " Plugin settings
 "-----------------
-" Rainbow parentheses for Lisp and variants
-let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgray',    'DarkOrchid3'],
-    \ ['darkgreen',   'firebrick3'],
-    \ ['darkcyan',    'RoyalBlue3'],
-    \ ['darkred',     'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['black',       'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkred',     'DarkOrchid3'],
-    \ ['red',         'firebrick3'],
-    \ ]
-let g:rbpt_max = 16
-autocmd Syntax lisp,scheme,clojure,racket RainbowParenthesesToggle
-
 " tabbar
 let g:Tb_MaxSize = 2
 let g:Tb_TabWrap = 1
@@ -234,9 +212,6 @@ nnoremap ; :
 :command Q q
 :command Qa qa
 :command QA qa
-
-
-let g:lisp_rainbow=1
 
 
 " netrw
