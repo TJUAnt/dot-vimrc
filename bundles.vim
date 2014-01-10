@@ -59,16 +59,16 @@ Bundle 'nvie/vim-togglemouse'
 "----------------------------------------
 "------- web backend ---------
 Bundle '2072/PHP-Indenting-for-VIm'
-"Bundle 'tpope/vim-rails'
-Bundle 'lepture/vim-jinja'
-"Bundle 'digitaltoad/vim-jade'
+" Bundle 'tpope/vim-rails'
+" Bundle 'lepture/vim-jinja'
+" Bundle 'digitaltoad/vim-jade'
 
 "------- web frontend ----------
 Bundle 'othree/html5.vim'
-" Bundle 'tpope/vim-haml'
 Bundle 'pangloss/vim-javascript'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'nono/jquery.vim'
+" Bundle 'kchmck/vim-coffee-script'
+" Bundle 'tpope/vim-haml'
 " Bundle 'groenewege/vim-less'
 " Bundle 'wavded/vim-stylus'
 " Bundle 'nono/vim-handlebars'
@@ -78,18 +78,18 @@ Bundle 'tpope/vim-markdown'
 Bundle 'timcharper/textile.vim'
 
 "------- Lisp --------
-"Bundle 'rainbow_parentheses.vim'
-"Bundle 'slimv.vim'
+" Bundle 'rainbow_parentheses.vim'
+" Bundle 'slimv.vim'
 
 
 "------- Ruby --------
 " Bundle 'tpope/vim-endwise'
 
 "------- Go ----------
-"Bundle 'jnwhiteh/vim-golang'
+" Bundle 'jnwhiteh/vim-golang'
 
 "------- FPs ------
-"Bundle 'kien/rainbow_parentheses.vim'
+" Bundle 'kien/rainbow_parentheses.vim'
 " Bundle 'wlangstroth/vim-racket'
 " Bundle 'vim-scripts/VimClojure'
 " Bundle 'rosstimson/scala-vim-support'
