@@ -31,14 +31,6 @@ pacman -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
 
-### Tutorial
-
-``` vim
-:help zencoding
-```
-
-[Movie teaching zencoding.vim](http://mattn.github.com/zencoding-vim/)
-
 ### Screenshots
 
 ![Completions](https://raw.github.com/humiaozuzu/dot-vimrc/master/screenshots/completions.gif)
