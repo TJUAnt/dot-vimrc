@@ -1,12 +1,8 @@
 WangChen's Vim config
 ==================
 
-I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
+I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. 
 
-* [Vim Introduction and Tutorial](http://blog.interlinked.org/tutorials/vim_tutorial.html)
-* [Vim plugins I use](http://mirnazim.org/writings/vim-plugins-i-use/)
-
-will be good for you.
 
 #### Most of the time we are writing code so we need:
 ## Code Completions
@@ -115,27 +111,19 @@ Languages    | Lint Tools    | Install guide
 ------------ | ------------- | ------------
 C            | gcc           | built-in
 CPP          | g++           | built-in
-CoffeeScript | coffee        | `npm install -g coffeelint`
 CSS          | csslint       | `npm install -g csslint`
 Erlang       | escript       | built-in
 Go           | go            | built-in
-Haml         | haml          | built-in
-Haskell      | ghc-mod       | `cabal install ghc-mod`
 HTML         | tidy          | built-in
 Java         | javac         | built-in
 Javascript   | jshint        | `npm install -g jshint`
 Json         | jsonlint      | `npm install -g jsonlint`
-Less         | lessc         | built-in
 Lisp         | clisp         | built-in
 Lua          | luac          | built-in
 Perl         | perl          | built-in
 PHP          | php           | built-in
-Puppet       | puppet        | built-in
 Python       | pyflakes      | `sudo pip install pyflakes`
 Ruby         | ruby          | built-in
-Scala        | scala         | built-in
-Sass         | sass          | built-in
-Scss         | scss/compass  | `gem install compass`
 XML          | xmllint       | built-in
 YAML         | js-yaml       | `npm install -g js-yaml`
 
@@ -165,27 +153,14 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 
 - Server
    - php
-   - go
-   - rails
-   - jinja
-   - jade
 - Web
    - html5
-   - haml
    - javascript
    - jquery
-   - coffeescript
-   - less
-   - stylus
-   - handlebar
 - Markup language
    - markdown
    - textile
-- FPs
-   - racket
-   - clojure
-   - scale
-  
+
 
 ## Themes
 
@@ -234,8 +209,6 @@ Clone in Mac
         :BundleInstall
 
 Thst's it!
-
-For installation on Windows, please refer to this post: http://blog.yoxyue.com/post/gvim-on-win7 (Thanks to [yoxyue](https://github.com/yoxyue))
 
 ## How to manage this vimrc?
 
