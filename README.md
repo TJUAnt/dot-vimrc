@@ -15,6 +15,15 @@ Such as completions for variable names and function names(neocomplcache), expand
 * [ZenCoding](http://github.com/mattn/zencoding-vim) - High speed HTML and CSS coding.
 * [delimitMate](http://github.com/Raimondi/delimitMate) - Provides auto-balancing and some expansions for parens, quotes, etc.
 
+### Tutorial
+
+``` vim
+:help neocomplcache
+:help SnipMate
+:help supertab
+:help delimitMate
+```
+
 ### Shortcuts
 
 * `Tab` -> Rotate across the completion list
