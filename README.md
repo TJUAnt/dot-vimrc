@@ -4,7 +4,6 @@ WangChen's Vim config
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. 
 
 
-#### Most of the time we are writing code so we need:
 ## Code Completions
 
 Such as completions for variable names and function names(neocomplcache), expanding snippets(snipMate), auto closing brackets/brace/quote(delimitMate) and fast expand expressions to HTML(ZenCoding).
@@ -198,7 +197,7 @@ Clone in Mac
 
 2. Clone and install this repo:
 
-        git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
+        git clone git://github.com/wangvsa/dot-vimrc.git ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
