@@ -128,8 +128,8 @@ XML          | xmllint       | built-in
 YAML         | js-yaml       | `npm install -g js-yaml`
 
 ### Shortcuts
-* `F5` -> Toggle Nerd-Tree file viewer
-* `F6` -> Toggle tagbar
+* `F5` -> Toggle tagbar
+* `F6` -> Toggle Nerd-tree file viewer
 * `Ctrl` + `p` -> Toggle ctrlp
 * `Alt` + `1~9` -> Switch between multiple buffers
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
