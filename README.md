@@ -126,6 +126,7 @@ Python       | pyflakes      | `sudo pip install pyflakes`
 Ruby         | ruby          | built-in
 XML          | xmllint       | built-in
 YAML         | js-yaml       | `npm install -g js-yaml`
+Latex        | latex         | built-in
 
 ### Shortcuts
 * `F5` -> Toggle tagbar

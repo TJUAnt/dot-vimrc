@@ -16,7 +16,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color Tomorrow-Night
+color Tomorrow-Night-Eighties
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -45,7 +45,7 @@ set number                                                        " show line nu
 set showmatch                                                     " show matching bracket (briefly jump)
 set showcmd                                                       " show typed command in status bar
 set title                                                         " show file in titlebar
-set laststatus=1                                                  " use 2 lines for the status bar
+set laststatus=2                                                  " use 2 lines for the status bar
 set matchtime=2                                                   " show matching bracket for 0.2 seconds
 set matchpairs+=<:>                                               " specially for html
 " set relativenumber
@@ -168,16 +168,21 @@ autocmd FileType c setlocal omnifunc=ccomplete#Complete
 let g:SuperTabDefaultCompletionType = '<C-X><C-U>'
 let g:SuperTabRetainCompletionType=2
 
+" Latex suite
+let g:tex_flavor='latex'
+set iskeyword+=:
+set grepprg=grep\ -nH\ $*
+
 " ctrlp
 set wildignore+=*/tmp/*,*.so,*.o,*.a,*.obj,*.swp,*.zip,*.pyc,*.pyo,*.class,.DS_Store  " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
 " Keybindings for plugin toggle
-nmap <F5> :TagbarToggle<cr>
-nmap <F6> :NERDTreeToggle<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
-nmap  <D-/> :
+nmap <F5> :TagbarToggle<cr>
+nmap <F6> :NERDTreeToggle<cr>
+nmap <F10> :!ctags -R --c++-kinds=+p --fields=+aS --extra=+q .<CR>
 nnoremap <leader>v V`]
 
 "------------------
@@ -219,10 +224,9 @@ let g:netrw_browse_split=2 "edit selected file in split window(vertical)
 
 
 if has("gui_running")
-    colorscheme solarized
+    colorscheme desert
     "set go=T                " only show toolbar"
-    "set guifont=Inconsolata\ Medium\ 12
-    set showtabline=2       " always show tabpage bar
+    set guifont=Osaka-Mono:h14
     set columns=140
     set lines=40
 

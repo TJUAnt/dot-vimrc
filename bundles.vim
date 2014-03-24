@@ -49,6 +49,11 @@ Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
 
 "-------------
+" Latex
+"-------------
+Bundle 'jcf/vim-latex'
+
+"-------------
 " Other Utils
 "-------------
 " Bundle 'humiaozuzu/fcitx-status'
